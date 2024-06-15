@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <!-- header including nav links, social media links, and introduction text -->
+    <header class="header" id="header">
+        <!-- social media links -->
+        <div class="icons">
+            <div><a href="https://discord.com/channels/Squidly108"><img src="assets/images/icons/discord.svg" alt="discord link Squidly1408" class="icon"></a> </div>
+            <div><a href="https://www.linkedin.com/in/squidly1408/"><img src="assets/images/icons/linkedin.svg" alt="linkedin link Squidly1408" class="icon"></a> </div>
+            <div><a href="https://github.com/Squidly1408"><img src="assets/images/icons/github.svg" alt="github link Squidly1408" class="icon"></a> </div>
+            <div><a href="mailto:lucas.newman140@gamil.com"><img src="assets/images/icons/email.svg" alt="email link Squidly1408" class="icon"></a> </div> 
+        </div>
+        <!-- nav links -->
+        <div class="navbar">
+            <h4 onclick="Scroll('home');" class="navlink1">Home</h4>
+            <h4 onclick="Scroll('about');" class="navlink">About</h4>
+            <h4 onclick="Scroll('projects');" class="navlink">Projects</h4>
+            <h4 onclick="Scroll('experience');" class="navlink">Experience</h4>
+
+            <img src="assets/images/logo.svg" alt="Squidly1408 logo" class="logo">
+        </div>
+        <!-- introduction text -->
+        <div class="bannerText">
+            <div><h1>Lucas Newman</h1></div>
+            <div><h3>I Design, Develop, Deploy Electronics and Software</h3></div>
+        </div>
+    </header>
+    <!-- about me section including about me text, and skills logos -->
+    <section class="about" id="about">
+        <!-- heading -->
+        <div class="heading">
+            <h3 class="headingTag">&lt;h1&gt;</h3>
+            <h2 class="headingText">About Me</h2>
+            <h3 class="headingTag">&lt;/h1&gt;</h3>
+        </div>
+        <!-- about me text -->
+        <div>
+            <h4 class="paragraph">&lt;P&gt; I AM A SOFTWARE ENGINEER THAT LOVES ANYTHING TO DO WITH TECHNOLOGY, FROM THE NEWEST TRENDS TO THE RELIABLE,  LOVE LEARNING AND WORKING WITH IT ALL &lt;/P&gt;</h4>
+        </div>
+        <!-- skills logos -->
+        <div class="skillsGrid">
+            <img src="assets/images/skills/1.png" alt="flutter skill logo" class="grid_image">
+            <img src="assets/images/skills/2.png" alt="firebase skill logo" class="grid_image">
+            <img src="assets/images/skills/3.png" alt="dart skill logo" class="grid_image">
+            <img src="assets/images/skills/4.png" alt="html skill logo" class="grid_image">
+            <img src="assets/images/skills/5.png" alt="CSS skill logo" class="grid_image">
+            <img src="assets/images/skills/6.png" alt="JavaScript skill logo" class="grid_image">
+            <img src="assets/images/skills/7.png" alt="Github skill logo" class="grid_image">
+            <img src="assets/images/skills/8.png" alt="Visual Studio Code skill logo" class="grid_image">
+            <img src="assets/images/skills/9.png" alt="Git skill logo" class="grid_image">
+            <img src="assets/images/skills/10.png" alt="Raspberry Pi skill logo" class="grid_image">
+            <img src="assets/images/skills/11.png" alt="Python skill logo" class="grid_image">
+            <img src="assets/images/skills/12.png" alt="Arduino skill logo" class="grid_image">
+        </div>
+    </section> 
+    <!-- projects section including all projects -->
+    <section class="projects" id="projects">
+        <!-- heading -->
+        <div class="heading">
+            <h3 class="headingTag">&lt;h1&gt;</h3>
+            <h2 class="headingText">Projects</h2>
+            <h3 class="headingTag">&lt;/h1&gt;</h3>
+        </div>
+        <!-- describing text -->
+        <div>
+            <h4 class="paragraph">&lt;P&gt; THESE ARE SOME OF MY BEST PROJECTS YET, FROM HARDWARE TO SOFTWARE &lt;/P&gt;</h4>
+        </div>
+        <!-- projects grid -->
+        <div class="project_grid">
+            <!-- strocoge project -->
+            <div class="project" onclick="">
+                <!-- img -->
+                <img src="assets/images/projects/strocoge.png" alt="placeholder image" class="project_image">
+                <div class="Project_text">
+                    <!-- title -->
+                    <h4>Strocoge</h4>
+                    <!-- about -->
+                    <p>A project to give a voice to those who need it via a glove with electronics.</p>
+                </div>
+            </div>
+            <!-- Luvium Project -->
+            <div class="project" onclick="travel('https://github.com/Squidly1408/fic')">
+                <!-- img -->
+                <img src="assets/images/projects/luvium.png" alt="placeholder image" class="project_image">
+                <div class="Project_text">
+                    <!-- title -->
+                    <h4>Luvium</h4>
+                    <!-- about -->
+                    <p>A social media website designed, developed and tested to increase collaboration.</p>
+                </div>
+            </div>
+            <!-- aac app project -->
+            <div class="project" onclick="travel('https://github.com/Squidly1408/aaca')">
+                <!-- img -->
+                <img src="assets/images/projects/aac_app.png" alt="placeholder image" class="project_image">
+                <div class="Project_text">
+                    <!-- title -->
+                    <h4>AAC App</h4>
+                    <!-- about -->
+                    <p>An app design for any device aimed to allow communication for those in need.</p>
+                </div>
+            </div>
+            <!-- Portfolio project [i know] -->
+            <div class="project" onclick="travel('https://github.com/Squidly1408/Portfolio')">
+                <!-- img -->
+                <img src="assets/images/projects/portfolio.png" alt="placeholder image" class="project_image">
+                <div class="Project_text">
+                    <!-- title -->
+                    <h4>My Portfolio</h4>
+                    <!-- about -->
+                    <p>Yes I coded this portfolio through many randitions and through many requirements.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- experience -->
+    <section class="experience" id="experience">
+        <!-- heading -->
+        <div class="heading">
+            <h3 class="headingTag">&lt;h1&gt;</h3>
+            <h2 class="headingText">Experience</h2>
+            <h3 class="headingTag">&lt;/h1&gt;</h3>
+        </div>
+        <!-- describing text -->
+        <div>
+            <h4 class="paragraph">&lt;P&gt; THE PLACES THAT HAVE TAUGHT ME EVERYTHING I KNOW FROM ELECTRONICS TO SOFTWARE &lt;/P&gt;</h4>
+        </div>
+        <!-- experience grid -->
+        <div class="place_grid">
+            <!-- SAPHI -->
+            <div class="place" onclick="travel('https://saphi.engineering/')">
+                <!-- img -->
+                <img src="assets/images/experiences/saphi.png" class="place_image">
+                <div class="Place_text">
+                    <!-- title -->
+                    <h4>SAPHI</h4>
+                    <!-- about -->
+                    <p>A tech agnostic solution provider.</p>
+                </div>
+            </div>
+            <!-- uon -->
+            <div class="place" onclick="travel('https://www.newcastle.edu.au/')">
+                <!-- img -->
+                <img src="assets/images/experiences/uon.png" alt="placeholder image" class="place_image">
+                <div class="Place_text">
+                    <!-- title -->
+                    <h4>The university of Newcastle</h4>
+                    <!-- about -->
+                    <p>A state of the art univeristy based in Newcastle.</p>
+                </div>
+            </div>
+            <!-- clickk -->
+            <div class="place" onclick="travel('https://clickk.com.au/')">
+                <!-- img -->
+                <img src="assets/images/experiences/clickk.png" alt="placeholder image" class="place_image">
+                <div class="Place_text">
+                    <!-- title -->
+                    <h4>Clickk</h4>
+                    <!-- about -->
+                    <p>A website development company based in Newcastle.</p>
+                </div>
+            </div>
+            <!-- NuBots -->
+            <div class="place" onclick="travel('https://nubook.nubots.net/')">
+                <!-- img -->
+                <img src="assets/images/experiences/nubots.png" alt="placeholder image" class="place_image">
+                <div class="Place_text">
+                    <!-- title -->
+                    <h4>NUBOTS</h4>
+                    <!-- about -->
+                    <p>A team of engineers and developers that build robots to play soccer.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+     <section class="footer">
+            <!-- social media links -->
+        <div class="footer_icons">
+            <a href="https://discord.com/channels/Squidly108"><img src="assets/images/icons/discord.svg" alt="discord link Squidly1408" class="footer_icon"></a>
+            <a href="https://www.linkedin.com/in/squidly1408/"><img src="assets/images/icons/linkedin.svg" alt="linkedin link Squidly1408" class="footer_icon"></a>
+            <a href="https://github.com/Squidly1408"><img src="assets/images/icons/github.svg" alt="github link Squidly1408" class="footer_icon"></a>
+            <a href="mailto:lucas.newman140@gamil.com"><img src="assets/images/icons/email.svg" alt="email link Squidly1408" class="footer_icon"></a> 
+        </div>
+     </section>
+</body>
+</html>
